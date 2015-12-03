@@ -1,0 +1,25 @@
+%YAML 1.2
+---
+name: CalligraphyXamarin
+id: calligraphyxamarin
+publisher: Kevin Skrei
+license: License.md
+icons:
+  - icons/feather_128x128.png
+  - icons/feather_512x512.png
+publisher-url: http://www.kevinskrei.com
+build:
+  - ../src/CalligraphyXamarin/CalligraphyXamarin.sln
+libraries:
+  android: ../src/CalligraphyXamarin/CalligraphyBindings/bin/release/CalligraphyBindings.dll
+summary: Calligraphy Binding for Xamarin Android
+details: Details.md
+screenshots:
+  - screenshots/screenshot1.png
+getting-started: GettingStarted.md
+version: "2.1"
+samples:
+  - name: "Android Sample"
+    path: ../samples/CalligraphySample/Calligraphy.sln
+    configuration: "Release|AnyCPU"
+    nobuild: true
